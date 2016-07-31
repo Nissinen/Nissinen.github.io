@@ -1,0 +1,87 @@
+/* Style sheet */
+
+/* Navigointivalikko listana, mutta horisontaalisesti asemoituna */
+
+/* IE-settings*/
+article, aside, figure, header, nav, section  {display: block;}
+h1{
+	font-size:40px;
+	text-align:center;
+}
+h1, h2{
+	color:#f1f1f1;
+	margin: 10px 5px 5px 15px;
+}
+
+body {
+	background-image:url("pictures/bg.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: auto;
+}
+
+body nav { 
+	background-width: 100%;
+	height:100px;
+	text-align: center;
+	border: 5px solid #7e7e7e;
+	background: #2036a9; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(left, #666666, #414141, #9c8580, #b19d9b, #9c8580, #414141, #666666);  For Safari 5.1 to 6.0 
+	background: -o-linear-gradient(left, #666666, #414141, #9c8580, #b19d9b, #9c8580, #414141, #666666);  For Opera 11.1 to 12.0 
+	background: -moz-linear-gradient(left, #666666, #414141, #9c8580, #b19d9b, #9c8580, #414141, #666666);  For Firefox 3.6 to 15 
+	background: linear-gradient(to right, #666666, #414141, #9c8580, #b19d9b, #9c8580, #414141, #666666);  Standard syntax */
+}
+
+nav ul li {display:inline; color:#ffffff; font-size:58px; }
+
+a{color:#ffffff; text-decoration: none; }
+a:hover{background:#7e7e7e;}
+a:visited{color:red;}
+/* ID's */
+
+#MainContainer{
+	width:95%;
+	margin:auto;
+	margin-top:50px;
+}
+#LeftContent{
+	position:fixed;
+	float:left;
+	/*border-radius:5px;*/
+	width:20%;
+	margin: 0px 3% 0px 0px;
+}
+#RightContent{
+	float:right;
+	/*border-radius:5px;*/
+	margin: 0px 0px 0px 3%;
+	width:73%;
+}
+.sidetext{
+	font-size:18px;
+}
+.maintext{
+	font-size:18px;
+}
+.item{
+	font-size:18px;
+	margin: 0px 0px 50px 0px;
+	color:#f1f1f1;
+	border: 5px solid #7e7e7e;
+	background-color:#2036a9;
+	padding:5px 5px 5px 5px;
+}
+.item img {
+	width: 90%;
+	display:block;
+	margin:auto;
+	margin-bottom: 10px;
+}
+.text{
+	font-size:18px;
+	margin: 0px 5px 15px 15px;
+}
