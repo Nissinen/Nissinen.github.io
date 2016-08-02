@@ -108,8 +108,12 @@ a:visited{color:red;}
 	margin: 0px 5px 15px 15px;
 }
 /* Responsive */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1020px) {
 
+	.item{
+		margin:0 5% 0 5%;
+	}
+	
 	#MainContainer{
 		width:100%;
 		margin:auto;
