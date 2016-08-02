@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="scripts.js"></script>
 		
-		<!--<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Raleway|Lato' rel='stylesheet' type='text/css'> -->
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Raleway|Lato' rel='stylesheet' type='text/css'> 
 
 	</head>
 	<body>
@@ -15,14 +15,14 @@
 				<nav>
 					<ul> 
 					  <li>Yes Neon Oy</li>
+					  <li class="text">Osaamista yli 30-vuoden kokemuksella</li>
 					</ul>
-					<!--<br>Osaamista yli 30 vuoden kokemuksella-->
 				</nav>
 		</header>
 		<main>
 			<div id="MainContainer">
 				<div id="LeftContent">
-					<div class="item">
+					<div class="info">
 						<h2> Yhteystiedot </h2>
 						<div class="text">
 							<p class="sidetext"> Yes Neon Oy <br>
@@ -32,7 +32,7 @@
 							<p class=sidetext>yesneon@phnet.fi</p>
 						</div>
 					</div>
-					<div class="item">
+					<div class="info">
 					<h2> Tuotteet </h2>
 						<div class="text">
 							<ul>
@@ -50,58 +50,72 @@
 						<h2 id="Kassavalot">Kassavalot</h2>
 						<p class=text> Kassojen numerointiin ja aukiolon ilmaisuun.
 						</p>
-						<img src="pictures/kassavalo.png" alt="kassavalo">
-						<img src="pictures/kassavalo2.png" alt="kassavalo">
-						<img src="pictures/kassavalo3.png" alt="kassavalo">
+						<table>
+							<tr>
+								<td> <img src="pictures/kassavalo.png" alt="kassavalo"> </td>
+								<td> <img src="pictures/kassavalo2.png" alt="kassavalo"> </td>
+								<td> <img src="pictures/kassavalo3.png" alt="kassavalo"> </td>
+							</tr>
+						</table>
 					</div>
 					<div class="item">
 						<h2 id="Valomainokset">Valomainokset</h2>
 						<p class=text> Erilaisia valomainoksia. mm. Ledivalaistu irtokirjainkyltti asennettuna lipalle, 3-sivuinen valaistu kattokuutio ja Liikenneaseman irtokirjainkyltit.
 						</p>
-						<img src="pictures/wipak.png" alt="valomainos">
-						<img src="pictures/wurth.png" alt="valomainos">
-						<img src="pictures/jaripekka.png" alt="valomainos">
-
+						<table>
+							<tr>
+								<td> <img src="pictures/wipak.png" alt="valomainos"> </td>
+								<td> <img src="pictures/wurth.png" alt="valomainos"> </td>
+								<td> <img src="pictures/jaripekka.png" alt="valomainos"> </td>
+							</tr>
+						</table>
 					</div>
 					<div class="item">
 						<h2 id="Teippaukset">Teippaukset</h2>
 						<p class=text> 
 							Erilaisia teippauksia
 						</p>
-						<img src="pictures/teippi.png" alt="valomainos teippaus">
-						<img src="pictures/rekka.png" alt="teippaukset">
+						<table>
+							<tr>
+								<td> <img src="pictures/teippi.png" alt="valomainos teippaus"> </td>
+								<td> <img src="pictures/rekka.png" alt="teippaukset"> </td>
+							</tr>
+						</table>
 					</div>
 					<div class="item">
 						<h2 id="Kyltit">Kyltit</h2>
-						<p class=text> 
-							Kaksipuolinen ledivalaistu pöytäkyltti.Kyltin paksuus vain 10 mm.
-						</p>
-						<img src="pictures/mecad.png" alt="sisäkyltti">
-						<p class=text> 
-							Kohokirjaimilla saa elävyyttä ja visuaalisuutta. Eri tyylit valittavissa.
-						</p>
-						<img src="pictures/muurame.png" alt="kohokirjain kyltti">
-						<p class=text> 
-							Taustavalaistu sisäkilpi yrityksen sisäänkäynnissä.
-						</p>
-						<img src="pictures/priocon.png" alt="kyltti">
-						<p class=text> 
-							Kohokirjaimia kyltteihin ja jyrsitty valaisinritilä.
-						</p>
-						<img src="pictures/irtokirjain.png" alt="irtokirjaimet">
+						<table>
+							<tr>
+								<td> <p class=centeredtext> Kaksipuolinen ledivalaistu pöytäkyltti.Kyltin paksuus vain 10 mm.</p> </td>
+								<td> <p class=centeredtext> Kohokirjaimilla saa elävyyttä ja visuaalisuutta. Eri tyylit valittavissa.</p> </td>
+								<td> <p class=centeredtext> Kohokirjaimia kyltteihin ja jyrsitty valaisinritilä. </p> </td>
+							</tr>
+							<tr>
+								<td> <img src="pictures/mecad.png" alt="sisäkyltti"> </td>
+								<td> <img src="pictures/muurame.png" alt="kohokirjain kyltti"> </td>
+								<td>  <img src="pictures/irtokirjain.png" alt="irtokirjaimet"> </td>
+							</tr>
+							<tr>
+								<td> <p class=centeredtext> Taustavalaistu sisäkilpi yrityksen sisäänkäynnissä.</p> </td>
+							</tr>
+							<tr>
+								<td> <img src="pictures/priocon.png" alt="kyltti"> </td>
+							</tr>
+						</table>
+						
 					</div>
 					<div class="item">
 						<h2 id="Valaistukset">Valaistukset</h2>
-						<p class=text> 
-							Valaistuksella näyttävyyttä erilaisten liikkeiden palvelutiskeihin.
-						</p>
-						<img src="pictures/palvelutiski.png" alt="valaistus">
-						<p class=text> 
-							Portaiden valaistus ledimoduleilla.Teho tässä toteutuksessa n.0,6 W porrasta kohden.
-						</p>
-						<img src="pictures/portaat.png" alt="valaistut portaat">
-
-						
+						<table>
+							<tr>
+								<td> <p class=centeredtext> Valaistuksella näyttävyyttä erilaisten liikkeiden palvelutiskeihin.</p> </td>
+								<td> <p class=centeredtext> Portaiden valaistus ledimoduleilla.Teho tässä toteutuksessa n.0,6 W porrasta kohden.</p> </td>
+							</tr>
+							<tr>
+								<td> <img src="pictures/palvelutiski.png" alt="valaistus"> </td>
+								<td> <img src="pictures/portaat.png" alt="valaistut portaat"> </td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>
